@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+    <title>Rating Card</title>
+</head>
+<body>
+    
+    <main>
+        <section class="rating-card">
+            <img src="images/icon-star.svg" alt="" class="star-icon">
+            <h1>
+                How did we do?
+            </h1>
+            <p>
+                Please let us know how we did with your support request. All feedback is appreciated 
+                to help us improve our offering!
+            </p>
+            <div class="rate">
+               
+                <input type="radio" id="rating-1" name="rating" value="1" />
+                <label for="rating-1">1</label>
+
+                <input type="radio" id="rating-2" name="rating" value="2" />
+                <label for="rating-2">2</label>
+
+                <input type="radio" id="rating-3" name="rating" value="3" checked />
+                <label for="rating-3">3</label>
+
+                <input type="radio" id="rating-4" name="rating" value="4" />
+                <label for="rating-4">4</label>
+
+                <input type="radio" id="rating-5" name="rating" value="5" />
+                <label for="rating-5">5</label>
+            </div>
+            <div>
+                <button type="submit" id="submit-btn" onclick="hideMesage()">
+                    Submit
+                </button>
+            </div>
+        </section>
+
+        <section class="thank-you-card hidden">
+            <img src="images/illustration-thank-you.svg" alt="" class="thanku">
+            <p class="radio-val"></p>
+            <h1>Thank you!</h1>
+            <p>We appreciate you taking the time to give a rating. If you ever need more support, 
+            don’t hesitate to get in touch!</p>
+        </section>
+    </main>
+
+<script src="card.js">
+</script>    
+</body>
+</html>

@@ -1,0 +1,135 @@
+body{
+background-color: hsl(216, 12%, 8%);
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+}
+
+main{
+    margin-top: 190px;
+}
+.rating-card{
+    width: 450px;
+    height: 350px;
+    border: 1px solid black;
+    text-align: left;
+    background-color: hsla(213, 19%, 18%,0.9);
+    color: white;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.star-icon{
+    background-color: hsl(217, 12%, 63%,0.2);
+    border-radius: 50px;
+    background-size: 100px 50px;
+    width: 15px;
+    height:15px;
+    margin-top: 20px;
+    padding: 10px;
+
+}
+
+
+.rating-card h1{font-family: 'Overpass', sans-serif;
+font-weight: 700;
+margin-top: 20px;}
+
+h1{
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;    
+}
+
+p{font-family: 'Overpass', sans-serif;
+font-weight: 400;
+opacity: 0.;
+font-size: small}
+
+.rate {
+	display: flex;
+	justify-content: space-between;
+	border: none;
+	margin-right: 10px;
+    margin-top: 50px;
+}
+
+.rate input {
+	visibility: hidden;
+	position: inherit;
+}
+
+.rate label {
+	color:hsl(216, 12%, 54%) ;
+	background-color: #2a3339;
+	transition: all 0.2s ease-in-out;
+	cursor: pointer;
+	font-size:19px ;
+	margin-left: -10px;
+	padding: 15px 20px 15px 20px;
+	border-radius: 55%;
+}
+
+.rate label:hover {
+	background-color:hsl(25, 97%, 53%);
+	color: hsl(0, 0%, 94%);
+}
+
+.rate input[type="radio"]:checked + label {
+	background-color: hsl(216, 12%, 54%);
+	transition: none;
+	color: white;
+}
+
+.thank-you-card{
+    border: 1px solid black;
+    width: 450px;
+    height: 350px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.hidden{display: none;}
+
+#submit-btn{
+    width: 430px;
+    height: 45px;
+    border-radius: 35px;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    margin-top: 30px;
+}
+
+#submit-btn:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+.thank-you-card{
+    background-color: hsla(213, 19%, 18%,0.9);
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.thanku{
+    width: 130px;
+    height: 100px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.radio-val{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsla(217, 12%, 63%,0.2) ;
+    color: hsl(25, 97%, 53%);
+    border-radius: 20px;
+    width: 150px;
+    height: 30px;
+    margin:10px 150px;
+}
+
